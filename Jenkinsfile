@@ -15,7 +15,7 @@ pipeline {
 		}
 		stage('---package---'){
 			steps {
-				tool name: 'maven3.3.3', type: 'maven'
+				tool name: 'maven3.3.3 ', type: 'maven'
 				sh "mvn package"
 			}
 		}
