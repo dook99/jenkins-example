@@ -1,5 +1,5 @@
 pipeline {
-	agent lin-loc-1
+	agent any
 	stages {
 		stage('---clean---'){
 			steps {
